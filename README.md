@@ -24,7 +24,7 @@ This is a C# program that helps you sort all of your CD's in one simple applicat
 * .Net Core
 
 ## Known Bugs
-* _No Known Bugs_
+* _There are four errors with codes CS1002, CS0116, CS1022_
 
 ## Support and contact details
 * _94brianhenry@gmail.com - Brian Henry_
