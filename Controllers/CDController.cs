@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using CDOrganizer.Controllers;
 
-namespace CDController
+namespace CDController{
     public class CDController : Controller
     {
 
