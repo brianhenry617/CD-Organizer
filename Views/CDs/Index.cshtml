@@ -1,0 +1,15 @@
+<h1>Your CD's List</h1>
+<table>
+  @foreach(var Title in Model)
+  {
+  <tr>
+    <td>@title.GetLocation()</td>
+    <td>@title.GetStay()</td>
+    <td><img src="@place.GetPicture()" width="100px" height="auto"></td>
+  </tr>
+  }
+</table>
+<p><a href="/CDs-list/new">Add other CDs</a></p>
+<form action="/CDs/delete" method="post">
+  <button type="submit" name="button">Clear All Items</button>
+</form>
