@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System;
 
-namespace CD-Organizer.Models
+namespace CDOrganizer.Models
 {
   public class CDs
   {
